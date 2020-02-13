@@ -30,6 +30,12 @@ body {
   animation: cursor .3s infinite alternate;
 }
 
+@media (max-width: 800px) {
+  .typing {
+    font-size: 20px;
+  }
+}
+
 .robot {
   box-sizing: border-box;
   width: 30%;
